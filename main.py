@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 import pandas as pd
 import numpy as np
-from scikit-learn.feature_extraction.text import TfidfVectorizer
-from scikit-learn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 app=FastAPI()
 df=pd.read_csv('data.csv')
 df['release_date']=pd.to_datetime(df['release_date'], errors='coerce')
