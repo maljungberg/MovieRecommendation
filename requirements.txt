@@ -10,7 +10,7 @@ pandas
 pydantic
 python-dateutil
 pytz
-scikit-learn
+sklearn
 scipy
 six
 sniffio
